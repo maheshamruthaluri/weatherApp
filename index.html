@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkyCast Inc</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:300' type='text/css'>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="#">SkyCast Inc.</a>
+    </div>
+
+    <div class="container">
+      <fieldset>
+        <form method="get" class="input-form">
+          <input id="city-name" name="city" type="text" class="ghost-input" placeholder="City name" required>
+          <input id="latitude" name="latitude" type="text" class="ghost-input" placeholder="Latitude" required>
+          <input id="longitude" name="longitude" type="text" class="ghost-input" placeholder="Longitude" required>
+          <button class="ghost-button">Search</button>
+
+            <input type="checkbox" class="ghost-checkbox">
+            <label for="celsius" class="ghost-checkbox">in Celsius</label>
+
+        </form>
+      </fieldset>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
